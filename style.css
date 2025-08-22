@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("https://picsum.photos/1600/900") no-repeat center center fixed;
+  background: url("https://static.vecteezy.com/system/resources/previews/009/362/398/original/blue-dynamic-shape-abstract-background-suitable-for-web-and-mobile-app-backgrounds-eps-10-vector.jpg") no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -16,3 +16,4 @@ body {
   width: 350px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
+
