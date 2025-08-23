@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("https://cdn.mos.cms.futurecdn.net/e8JNwwMJA7Jd6iXy5SjVYd.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background: url("https://picsum.photos/1600/900") no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,12 +9,62 @@ body {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.85); /* glass effect */
-  padding: 25px;
-  border-radius: 15px;
-  width: 360px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-  backdrop-filter: blur(10px); /* adds glass blur */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
 
